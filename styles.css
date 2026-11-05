@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F0EB;
+}
+
+
+h1 {
+    color:#1d4ecd;
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin:12px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 12px;
+    margin:12px;
+    border:1px solid black;
+    width: 30%;
+    display: block;
+}
+
+button  {
+    background-color: #1d4ecd;
+    color:white;
+    padding: 12px 20px;
+    margin: 12px;
+    display: block;
+    border-radius: 8px;
+    border: none;
+}
+#message {
+    color:#1d4ecd;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #1842ad;
+    cursor: pointer;
+}
+.app {
+    background-color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    margin: 12px;
+}
+.form {
+    background-color: #F8F0EB;
+    border-radius: 12px;
+    display: flex;
+    padding: 12px 20px;
+    flex-direction: column;
+}
+#prodList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+.prod-card {
+    flex: 1;
+    min-width:30%;
+    background-color: #F8F0EB;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 20px;
+    margin: 8px;
+}
+.prod-card h3 {
+    font-weight: bold;
+    width: 100%;
+    display: list-item;
+}
+.prod-card p {
+    font-weight: bold;
+    width: 100%;
+}
+.subtitle {
+    text-align: center;
+}
+
+.list-box h2 {
+    text-align: center;
+}
+.list-box h3 {
+    font-weight: bold;
+}

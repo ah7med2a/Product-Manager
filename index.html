@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app" id="hero">
+        <h1>Product Manager</h1>
+        
+        <div class="form-box">
+            <div class="form">
+            <p class="subtitle">Manage your pruducts using Javascript and Local Storage</p>
+            <input type="text" id="prodName" placeholder="Product name">
+
+            <input type="number" id="prodPrice" placeholder="Product price">
+            
+            <input type="number" id="prodQuantity" placeholder="Product quantity">
+            
+            <button id="saveBtn">Save Product</button>
+        </div>
+            <p class="message" id="message"></p>
+        
+        </div>
+
+        <div class="list-box">
+            <h2> Products</h2>
+
+            <h3 id="prodCount"></h3>  
+
+            <div id="prodList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
